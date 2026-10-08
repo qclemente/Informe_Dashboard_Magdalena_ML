@@ -1,6 +1,6 @@
 # 5. Despliegue en Render
 
-El tablero se encuentra publicado como servicio web en Render, plataforma que construye y
+El dashboard se encuentra publicado como servicio web en Render, plataforma que construye y
 ejecuta la aplicación a partir de un repositorio de GitHub. Este capítulo describe los
 requisitos que la aplicación debe cumplir para funcionar en producción, el archivo de
 configuración del servicio y el procedimiento seguido para el despliegue.
@@ -73,7 +73,7 @@ El repositorio se vinculó mediante su dirección pública, sin conceder a Rende
 cuenta de GitHub. En esa modalidad el despliegue automático no se activa, de modo que cada
 modificación subida al repositorio requiere iniciar un nuevo despliegue desde el panel del
 servicio mediante la opción de despliegue manual. Ese comportamiento resulta adecuado para un
-tablero cuyo contenido cambia con poca frecuencia y evita que una modificación incompleta se
+dashboard cuyo contenido cambia con poca frecuencia y evita que una modificación incompleta se
 publique de forma inmediata.
 
 ## 5.4 Comportamiento del plan gratuito
@@ -88,7 +88,7 @@ figuras se construyen a partir de archivos de pocos megabytes. El archivo de may
 ## 5.5 Datos publicados
 
 La licencia del portal DHIME autoriza la descarga de los datos para uso personal y no
-comercial, sin conceder derechos de redistribución. Por esa razón, el repositorio del tablero
+comercial, sin conceder derechos de redistribución. Por esa razón, el repositorio del dashboard
 no contiene los archivos originales del IDEAM y publica únicamente la serie diaria
 consolidada de caudal y los resultados agregados del análisis, que son los insumos mínimos
 para reproducir las figuras. El procedimiento para descargar los archivos originales se
