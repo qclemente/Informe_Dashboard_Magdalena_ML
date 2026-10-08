@@ -1,0 +1,46 @@
+# Configuracion de MyST (Jupyter Book 2)
+version: 1
+project:
+  id: informe-dashboard-magdalena-ml
+  title: "Descarga efectiva en el río Magdalena: informe del dashboard"
+  short_title: "Informe del dashboard"
+  description: >-
+    Desarrollo e interpretación del dashboard sobre la descarga
+    efectiva del río Magdalena en la estación Calamar.
+  authors:
+    - name: Kevin Clemente Rosario
+    - name: Manuel Meza Castro
+  keywords:
+    - hidrología
+    - descarga efectiva
+    - río Magdalena
+    - Dash
+    - machine learning
+  github: https://github.com/qclemente/Informe_Dashboard_Magdalena_ML
+  bibliography:
+    - referencias.bib
+  toc:
+    - file: index.md
+      title: "Presentación"
+    - file: 01_contexto.ipynb
+      title: "1. Contexto del problema"
+    - file: 02_eda.ipynb
+      title: "2. Análisis exploratorio"
+    - file: 03_modelos.ipynb
+      title: "3. Modelos base"
+    - file: 04_arquitectura.md
+      title: "4. Arquitectura del dashboard"
+    - file: 05_despliegue.md
+      title: "5. Despliegue en Render"
+    - file: 06_conclusiones.md
+      title: "6. Conclusiones"
+  numbering:
+    headings: false
+  exclude:
+    - _build/**
+    - README.md
+site:
+  template: book-theme
+  options:
+    favicon: ""
+    logo_text: "Informe del dashboard - Río Magdalena"

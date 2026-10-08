@@ -1,0 +1,9 @@
+numpy==1.25.2
+pandas==2.1.1
+scipy==1.11.2
+statsmodels==0.14.1
+scikit-learn==1.3.0
+plotly==7.1.0
+jupyter
+mystmd==1.11.0
+ghp-import==2.1.0

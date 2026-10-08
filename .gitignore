@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Build del libro (se publica aparte con ghp-import)
+_build/
+.myst.yml.lock
+
+# Archivos intermedios que genera el capitulo 2
+datos/features.pkl
+datos/predictores.json
